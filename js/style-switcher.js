@@ -1,3 +1,4 @@
+
 const styleSwitcherToggler=document.querySelector(".style-switcher-toggler");
 styleSwitcherToggler.addEventListener("click",()=>{
     document.querySelector(".style-switcher").classList.toggle('open');
@@ -33,4 +34,4 @@ windows.addEventListener("load",()=>{
     else{
         dayNight.querySelector("i").classList.add("fa-moon")
     }
-})
+});
